@@ -3,10 +3,12 @@ import './App.css';
 import FileEditor from 'component/FileEditor';
 import mock1 from 'example/mock1';
 import mock2 from 'example/mock2';
+import FileIcon from 'component/FileIcon';
 
 function App() {
   return (
     <div className="App">
+      <FileIcon iconName="js" />
       <FileEditor
         data={mock1}
         type="basic"
