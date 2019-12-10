@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import FileEditor from './component/FileEditor';
-import mock1 from './example/mock1';
-import mock2 from './example/mock2';
+import FileEditor from 'component/FileEditor';
+import mock1 from 'example/mock1';
+import mock2 from 'example/mock2';
 
 function App() {
   return (

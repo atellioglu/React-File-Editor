@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Button, Editor, Node } from 'component';
 
-export default class FileEditor extends React.Component {
+export default class FileEditor extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
       <div className="test" />
