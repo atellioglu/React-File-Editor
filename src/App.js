@@ -4,6 +4,7 @@ import FileEditor from 'component/FileEditor';
 import mock1 from 'example/mock1';
 import mock2 from 'example/mock2';
 import FileIcon from 'component/FileIcon';
+import Editor from 'component/Editor';
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
         data={mock2}
         type="tree"
       />
+      <div>
+        <Editor />
+
+      </div>
     </div>
   );
 }
