@@ -25,7 +25,7 @@ export default class Editor extends React.Component {
     const { noContent } = this.props;
     return (
       <div className="react-f-editor">
-        {content === null && loader === false ? noContent : <SyntaxHighlighter>{content}</SyntaxHighlighter>}
+        {content === null && loader === false ? noContent : <SyntaxHighlighter text={content} />}
       </div>
     );
   }
